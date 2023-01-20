@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "63cada65cec574814fce1d7f"
+  },
+  "empID": "14f3e2",
+  "firstName": "Ashitosh",
+  "lastName": "Godse",
+  "emailId": "ashu@gmail.com"
+},{
+  "_id": {
+    "$oid": "63cada7acec574814fce1d80"
+  },
+  "empID": "6e4adb",
+  "firstName": "Rohan ",
+  "lastName": "Mangle",
+  "emailId": "rohan@gmail.com"
+},{
+  "_id": {
+    "$oid": "63cadb59cec574814fce1d81"
+  },
+  "empID": "068af1",
+  "firstName": "Abhinav",
+  "lastName": "Deshmukh",
+  "emailId": "abhi@gmail.com"
+}]
