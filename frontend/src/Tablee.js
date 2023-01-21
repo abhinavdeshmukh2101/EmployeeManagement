@@ -100,6 +100,7 @@ const Tablee = () => {
       emailId: updateEmailId,
     };
     axios.patch(`http://localhost:5000/api/emp/${id}`, obj);
+    window.location.reload(true);
   };
 
   const viewData = (e, id) => {
@@ -119,6 +120,7 @@ const Tablee = () => {
     // console.log(id);
 
     axios.delete(`http://localhost:5000/api/emp/${id}`);
+    window.location.reload(true);
   };
 
   return (
@@ -208,6 +210,7 @@ const Tablee = () => {
                               <Button
                                 variant="contained"
                                 sx={{ marginRight: "auto" }}
+                                onClick={(e) => window.location.reload(true)}
                               >
                                 No
                               </Button>

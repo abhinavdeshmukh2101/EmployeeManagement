@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import {
   Button,
@@ -30,7 +29,6 @@ const style = {
 };
 
 const Dashboard = () => {
-  const navigate = useNavigate();
   const [open, setOpen] = useState(false);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -49,7 +47,7 @@ const Dashboard = () => {
     };
 
     axios.post("http://localhost:5000/api/emp/", empObj);
-    navigate("/");
+    window.location.reload(true);
   };
 
   const handleOpen = () => setOpen(true);
